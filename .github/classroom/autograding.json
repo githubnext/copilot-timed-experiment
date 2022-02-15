@@ -1,0 +1,124 @@
+{
+  "tests": [
+    {
+      "name": "start lines: parses the method",
+      "setup": "",
+      "run": "npx jest -t 'start lines parses the method'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "start lines: parses the path",
+      "setup": "",
+      "run": "npx jest -t 'start lines parses the path'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "start lines: parses the HTTP version",
+      "setup": "",
+      "run": "npx jest -t 'start lines parses the HTTP version'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "start lines: parses empty requests",
+      "setup": "",
+      "run": "npx jest -t 'start lines parses empty requests'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "start lines: parses requests with headers but no body",
+      "setup": "",
+      "run": "npx jest -t 'start lines parses requests with headers but no body'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "start lines: gracefully parses requests with only a start line",
+      "setup": "",
+      "run": "npx jest -t 'start lines gracefully parses requests with only a start line'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "start lines: parses requests containing a body",
+      "setup": "",
+      "run": "npx jest -t 'start lines parses requests containing a body'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "behavior: returns 400 for malformed requests",
+      "setup": "",
+      "run": "npx jest -t 'behavior returns 400 for malformed requests'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "behavior: only accepts GET",
+      "setup": "",
+      "run": "npx jest -t 'behavior only accepts GET'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "behavior: only accepts HTTP/1.1",
+      "setup": "",
+      "run": "npx jest -t 'behavior only accepts HTTP/1.1'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "behavior: returns 404 for non-existent files",
+      "setup": "",
+      "run": "npx jest -t 'behavior returns 404 for non-existent files'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "behavior: returns 200 for existing files",
+      "setup": "",
+      "run": "npx jest -t 'behavior returns 200 for existing files'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
